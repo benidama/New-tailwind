@@ -23,3 +23,27 @@ function closureFun(el1) {
   Amabuye();
 }
 closureFun("Ese koko nibyo cg nukubeshya?");
+//callback function
+// const num = [23, 45, 67];
+function addNum(arr) {
+  arr(56, 89, 12, 10);
+}
+
+addNum((...num) => {
+  let sum = 0;
+  for (i = 0; i < num.length; i++) {
+    sum += num[i];
+  }
+  console.log(sum);
+});
+
+//example 2
+function names(n) {
+  console.log(n);
+}
+
+function students(na, na1, call) {
+  const name = na + ", " + na1;
+  call(name);
+}
+students("Joanes", "Quintus", names);
