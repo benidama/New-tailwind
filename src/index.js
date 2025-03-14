@@ -47,3 +47,14 @@ function students(na, na1, call) {
   call(name);
 }
 students("Joanes", "Quintus", names);
+
+//Pure or inpure function, high order function,iife, call stack, recursion...
+
+(function () {
+  console.log("I am IIFE");
+})();
+
+//string methods
+const str = "I am here and here for you for undefined";
+const index = str.indexOf("");
+console.log(index);
