@@ -58,3 +58,8 @@ students("Joanes", "Quintus", names);
 const str = "I am here and here for you for undefined";
 const index = str.indexOf("");
 console.log(index);
+
+const sl = console.log(str.slice(3, -5));
+const sli = console.log(str.substring(7, 2));
+const spi = console.log(str.split());
+const spit = console.log(str.split(" ", 3));
