@@ -54,7 +54,7 @@ students("Joanes", "Quintus", names);
   console.log("I am IIFE");
 })();
 
-//string methods
+//string methods in js
 const str = "I am here and here for you for undefined";
 const index = str.indexOf("");
 console.log(index);
@@ -63,3 +63,9 @@ const sl = console.log(str.slice(3, -5));
 const sli = console.log(str.substring(7, 2));
 const spi = console.log(str.split());
 const spit = console.log(str.split(" ", 3));
+
+//Array methods in js
+const arr = [23, 56, 34, 13];
+
+const sum = arr.map((el) => el + el);
+console.log(sum);
