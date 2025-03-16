@@ -69,3 +69,12 @@ const arr = [23, 56, 34, 13];
 
 const sum = arr.map((el) => el + el);
 console.log(sum);
+
+function summation() {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum;
+}
+console.log(summation());
