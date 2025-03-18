@@ -78,3 +78,5 @@ function summation() {
   return sum;
 }
 console.log(summation());
+
+const array = ["Allo", "Hello", "Hey"];
