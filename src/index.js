@@ -80,3 +80,6 @@ function summation() {
 console.log(summation());
 
 const array = ["Allo", "Hello", "Hey"];
+
+const great = arr.filter((num) => num > 30);
+console.log(great);
