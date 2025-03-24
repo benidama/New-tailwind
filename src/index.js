@@ -116,3 +116,22 @@ function isSortedAndHow(array) {
   }
 }
 console.log(isSortedAndHow([78, 23, 123, 78, 35, 98]));
+
+// Given an array of Boolean values and a logical operator, return a Boolean result based on sequentially applying the operator to the values in the array.
+
+function logicalCalc(array, op) {
+  //your code here
+  let arr = array[0];
+  for (let i = 1; i < array.length; i++) {
+    if (op == "AND") {
+      arr = arr && array[i];
+    }
+    if (op == "OR") {
+      arr = arr || array[i];
+    }
+    if (op == "XOR") {
+      arr = arr != array[i];
+    }
+  }
+  return arr;
+}
