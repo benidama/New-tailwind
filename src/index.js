@@ -135,3 +135,5 @@ function logicalCalc(array, op) {
   }
   return arr;
 }
+//another challenge
+const array = [45, 34, 12, 89, 57];
